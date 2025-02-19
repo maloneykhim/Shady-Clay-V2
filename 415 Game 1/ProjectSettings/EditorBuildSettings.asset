@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Win01.unity
     guid: 482cc7787612a90469a2769e5f797973
+  - enabled: 1
+    path: Assets/Scenes/Lose_timeout.unity
+    guid: b8ca478bc61891d44893e5f9654228ba
   m_configObjects: {}
