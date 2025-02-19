@@ -30,8 +30,7 @@ public class CharaController : MonoBehaviour
 
     void Start()
     {
-        //playerAnimator = GetComponent<Animator>();
-        //rivalAnimator = GetComponent<Animator>();
+       audioController.ThemeStart();
         SetNextTriggerTime();
         StartCoroutine(CheckCaughtCondition());
         explosionAnimator.gameObject.SetActive(false);
@@ -49,15 +48,19 @@ public class CharaController : MonoBehaviour
 
         if (Input.GetMouseButton(0))
         {
+            
             Debug.Log("loop");
             isSabotaging = true;
             playerAnimator.SetBool("isSabotaging", true);
+            
 
             // isExploding = true;
             explosionAnimator.gameObject.SetActive(true);
             explosionAnimator.SetBool("isExploding", true);
 
+            
             audioController.PlayPlayerSFX();
+            
         }
         else
         {
@@ -75,6 +78,21 @@ public class CharaController : MonoBehaviour
             TriggerAnimation();
             
         }
+
+
+    if (Input.GetMouseButtonDown(0)) // Detects first press only
+    {
+        audioController.MetalTune();
+       // audioController.StopTheme();
+        
+    }
+
+    if (Input.GetMouseButtonUp(0)) // Detects release
+    {
+        audioController.StopMetalTune();
+        
+    }
+
     }
 
     void TriggerAnimation()

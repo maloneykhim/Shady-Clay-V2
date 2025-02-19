@@ -393,8 +393,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 38bd04083510a6b458e38cbb4cd5d116, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
@@ -902,7 +902,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666461514}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -2393,6 +2393,7 @@ MonoBehaviour:
   audioClipRival: {fileID: 8300000, guid: 93390a45ce7b55941b18d1743b4dedb4, type: 3}
   musicSource: {fileID: 199352154}
   theme: {fileID: 8300000, guid: 38bd04083510a6b458e38cbb4cd5d116, type: 3}
+  metal: {fileID: 8300000, guid: 91c3823693ed7634b9aec1af98e73eef, type: 3}
   button: {fileID: 8300000, guid: 92be6f11df0586c4e9e127af92659d72, type: 3}
 --- !u!1 &1911111497
 GameObject:

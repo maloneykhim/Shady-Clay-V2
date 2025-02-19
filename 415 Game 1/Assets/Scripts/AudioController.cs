@@ -11,21 +11,28 @@ public class AudioController : MonoBehaviour
     
     public AudioClip[] audioClipsPlayer;
     public AudioClip audioClipRival;
+    public AudioClip button;
 
 
     public AudioSource musicSource;
 
     public AudioClip theme;
 
-    public AudioClip button;
+    public AudioClip metal;
 
-   
-    
-        public void Start(){
+ 
 
+
+    public void ThemeStart(){
+
+      //  musicSource.clip = theme;
+       // musicSource.volume = 0.1f;
+        musicSource.PlayOneShot(theme);
+    }
+
+    public void StopTheme(){
         musicSource.clip = theme;
-        musicSource.volume = 0.1f;
-        musicSource.Play();
+        musicSource.Pause();
     }
 
     public void PauseMusic(){
@@ -72,6 +79,19 @@ public class AudioController : MonoBehaviour
    public void ButtonSFX(){
         SFXSource.clip = button;
         SFXSource.Play();
+   }
+
+
+   public void MetalTune(){
+       
+       // musicSource.clip = metal;
+        musicSource.PlayOneShot(metal);   
+   }
+
+   public void StopMetalTune(){
+    musicSource.clip = metal;
+     musicSource.Pause();
+
    }
 
 
