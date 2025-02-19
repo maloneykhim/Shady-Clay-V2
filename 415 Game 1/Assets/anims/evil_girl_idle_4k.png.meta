@@ -1,0 +1,1425 @@
+fileFormatVersion: 2
+guid: 4bda8c5c707986c409beddc737e5e7c4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 3456
+        width: 254
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fd1fdf5b637024da9d2a754f5ea3df
+      internalID: -164273302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_1
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 3456
+        width: 254
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa57dbd71af1cb46b0bed1e5cbdcdcf
+      internalID: 486240389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_2
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 3456
+        width: 254
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ffe1217d51d3348a4dc268d43fb180
+      internalID: -1034802598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_3
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 3456
+        width: 254
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11b2c816ad6a154fa9b3086eb05a722
+      internalID: 816035325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_4
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 3456
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b261bb96fdacd14c95ea038225bfabb
+      internalID: -160697888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_5
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 3456
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ba502703f1f244aa9a715b52a772c6
+      internalID: 1920186739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_6
+      rect:
+        serializedVersion: 2
+        x: 2483
+        y: 3456
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f457b650903650044a646f3d563709d9
+      internalID: -1141904885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_7
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 3456
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9124a431d1490f4caae8962b4c34136
+      internalID: -1989917899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_8
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 3456
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8357bed81969f844e9e1cbd848931e74
+      internalID: -2020089685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_9
+      rect:
+        serializedVersion: 2
+        x: 3683
+        y: 3456
+        width: 256
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6572946f53d9d449787733fda1bf0d
+      internalID: 429681026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_10
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2816
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b8e5d1607d6634088d6c008a07adbe
+      internalID: -420557496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_11
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 2816
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b047c17670cd94c870d5807356079c
+      internalID: 868376421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_12
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 2816
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15e536540f215a4d8b6e188525a4cef
+      internalID: -652633582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_13
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 2816
+        width: 256
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cbd02b414b3b94795fb70b326a605b
+      internalID: -1519229309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_14
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 2816
+        width: 256
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2e5c28b3fc51248b6f2f91853e5ba3
+      internalID: 447528891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_15
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 2816
+        width: 256
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11120bbcac3862144985c7c7e53a24dc
+      internalID: 1564169581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_16
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 2816
+        width: 256
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dd2d897b8453044adcc5935878940d
+      internalID: 642059773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_17
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 2816
+        width: 256
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c59545046201ca469b16897c8025e99
+      internalID: -1803592882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_18
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 2816
+        width: 256
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bc4a02415006545bc0674bbb04ae80
+      internalID: 303687656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_19
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 2816
+        width: 257
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285cf5c568c157345b9b3e6c377c480f
+      internalID: -835909642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_20
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2176
+        width: 257
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46edfac7b848ac242ac6603f90f8d5cf
+      internalID: -1729362444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_21
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 2176
+        width: 257
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fe1aa733a55b74d96fab1b1fbcf001
+      internalID: -935652006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_22
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 2176
+        width: 257
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e6fbaf054d284458b40f870160b941
+      internalID: -1681185855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_23
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 2176
+        width: 257
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2adc3a746ce4c48a7f36fa31203ea5
+      internalID: -987277283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_24
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 2176
+        width: 257
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f685622809e255844a2496f70feaf5cc
+      internalID: 1682837223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_25
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 2176
+        width: 257
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2692a97d758ab4fb6461c3d0b794e9
+      internalID: 1627482944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_26
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 2176
+        width: 257
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ea0cec47d7de745a6cc42964684159
+      internalID: 1173291749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_27
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 2176
+        width: 257
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61eddc87ec9f2a84cab488788452f5d4
+      internalID: -1213168572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_28
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 2176
+        width: 256
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca057e71d1bb894fa9d3f8075338966
+      internalID: -392288080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_29
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 2176
+        width: 256
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed5cddc55e935b498338dc378172b1c
+      internalID: -1214817095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_30
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1536
+        width: 256
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3542418f0c1674e8dc48343e577db9
+      internalID: -1805813935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_31
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1536
+        width: 256
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb5f42ee2e45ba44b707d93948c5f85
+      internalID: 995268911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_32
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1536
+        width: 256
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8305d7b06979e83448ca465634101d5e
+      internalID: 670823561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_33
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1536
+        width: 256
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89dd6b9e1b383f4da7407af5255017b
+      internalID: 533495748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_34
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 1536
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df4b505835eecb47863cdb9de305ebb
+      internalID: 307906027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_35
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 1536
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc107a1239c86d4097c8abe5031cf3d
+      internalID: -1400563051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_36
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 1536
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a092a252a1af4654687ee1fc759e976a
+      internalID: 899110769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_37
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 1536
+        width: 256
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf68fbdaa897904ba908e28cc4182cb
+      internalID: 532600651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_38
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 1536
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef132663b3ab5da4d91db8f1afbc972b
+      internalID: -1216019154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_39
+      rect:
+        serializedVersion: 2
+        x: 3683
+        y: 1536
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70da19fe7b4a5f44aa70dfaf22823caa
+      internalID: -336276228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_40
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 896
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897a2ed9e53013748b64da83cc77c96c
+      internalID: 1009516242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_41
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 896
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a28f3555d5edc2459bb07f2faa23afd
+      internalID: 1123195597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_42
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 896
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4c0aa909ef5cb4f8d56d0b091f2881
+      internalID: -16783983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_43
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 896
+        width: 254
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58999c6c774e0d84d90aed98ccc6b1e4
+      internalID: 602501259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_44
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 896
+        width: 254
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839b017dbb26716419c1de886bf481a0
+      internalID: 1926558632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_45
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 896
+        width: 254
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6cdd9bb60b0aa4ba75ead6d1411b5c
+      internalID: 439614392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_46
+      rect:
+        serializedVersion: 2
+        x: 2483
+        y: 896
+        width: 254
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c79bf2c7c035744aba8e9d80473c339
+      internalID: -292520476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_47
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 896
+        width: 254
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4694a945aaa0c40a9a3a92eaf1f41b
+      internalID: 1522813602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_48
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 896
+        width: 254
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0e104effa07d043b5a74c1fcafdedd
+      internalID: 1374636168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_49
+      rect:
+        serializedVersion: 2
+        x: 3683
+        y: 896
+        width: 254
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9f2444f99a1184c826880793277944
+      internalID: 1057200334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_50
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 256
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1341c5bb4d6de9d45938c7f8c8783dcc
+      internalID: 926375052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_51
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 256
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66a056dbb066bf4aaf3b937d8ae05cf
+      internalID: 2029600615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_52
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 256
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e538ce7a49b91488fddaf571f44203
+      internalID: -294167896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_53
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 256
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd56990b41e446c4e8870c21124facae
+      internalID: -1823187526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_54
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 256
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289b6d73a8640d44e9b37769c758e963
+      internalID: 32608906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_55
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 256
+        width: 256
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee017e11faec1d847a5fe07df3b56b08
+      internalID: 29176165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_56
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 256
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6884feb362f950479c45622c52ace50
+      internalID: 1723198322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_57
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 256
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bd98ce85eccbb4fbd14becbd96d958
+      internalID: 1326070822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil_girl_idle_4k_58
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 256
+        width: 255
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbaf6c50ae59ae4284ca5f2071353cf
+      internalID: 589148557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      evil_girl_idle_4k_0: -164273302
+      evil_girl_idle_4k_1: 486240389
+      evil_girl_idle_4k_10: -420557496
+      evil_girl_idle_4k_11: 868376421
+      evil_girl_idle_4k_12: -652633582
+      evil_girl_idle_4k_13: -1519229309
+      evil_girl_idle_4k_14: 447528891
+      evil_girl_idle_4k_15: 1564169581
+      evil_girl_idle_4k_16: 642059773
+      evil_girl_idle_4k_17: -1803592882
+      evil_girl_idle_4k_18: 303687656
+      evil_girl_idle_4k_19: -835909642
+      evil_girl_idle_4k_2: -1034802598
+      evil_girl_idle_4k_20: -1729362444
+      evil_girl_idle_4k_21: -935652006
+      evil_girl_idle_4k_22: -1681185855
+      evil_girl_idle_4k_23: -987277283
+      evil_girl_idle_4k_24: 1682837223
+      evil_girl_idle_4k_25: 1627482944
+      evil_girl_idle_4k_26: 1173291749
+      evil_girl_idle_4k_27: -1213168572
+      evil_girl_idle_4k_28: -392288080
+      evil_girl_idle_4k_29: -1214817095
+      evil_girl_idle_4k_3: 816035325
+      evil_girl_idle_4k_30: -1805813935
+      evil_girl_idle_4k_31: 995268911
+      evil_girl_idle_4k_32: 670823561
+      evil_girl_idle_4k_33: 533495748
+      evil_girl_idle_4k_34: 307906027
+      evil_girl_idle_4k_35: -1400563051
+      evil_girl_idle_4k_36: 899110769
+      evil_girl_idle_4k_37: 532600651
+      evil_girl_idle_4k_38: -1216019154
+      evil_girl_idle_4k_39: -336276228
+      evil_girl_idle_4k_4: -160697888
+      evil_girl_idle_4k_40: 1009516242
+      evil_girl_idle_4k_41: 1123195597
+      evil_girl_idle_4k_42: -16783983
+      evil_girl_idle_4k_43: 602501259
+      evil_girl_idle_4k_44: 1926558632
+      evil_girl_idle_4k_45: 439614392
+      evil_girl_idle_4k_46: -292520476
+      evil_girl_idle_4k_47: 1522813602
+      evil_girl_idle_4k_48: 1374636168
+      evil_girl_idle_4k_49: 1057200334
+      evil_girl_idle_4k_5: 1920186739
+      evil_girl_idle_4k_50: 926375052
+      evil_girl_idle_4k_51: 2029600615
+      evil_girl_idle_4k_52: -294167896
+      evil_girl_idle_4k_53: -1823187526
+      evil_girl_idle_4k_54: 32608906
+      evil_girl_idle_4k_55: 29176165
+      evil_girl_idle_4k_56: 1723198322
+      evil_girl_idle_4k_57: 1326070822
+      evil_girl_idle_4k_58: 589148557
+      evil_girl_idle_4k_6: -1141904885
+      evil_girl_idle_4k_7: -1989917899
+      evil_girl_idle_4k_8: -2020089685
+      evil_girl_idle_4k_9: 429681026
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
