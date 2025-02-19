@@ -33,7 +33,7 @@ public class CharaController : MonoBehaviour
 
     void Start()
     {
-       audioController.ThemeStart();
+       audioController.StartTheme();
         SetNextTriggerTime();
         StartCoroutine(CheckCaughtCondition());
         explosionAnimator.gameObject.SetActive(false);
@@ -49,31 +49,32 @@ public class CharaController : MonoBehaviour
             return;
         }
 
-        if (Input.GetMouseButton(0))
-        {
-            
-            Debug.Log("loop");
-            isSabotaging = true;
-            playerAnimator.SetBool("isSabotaging", true);
-            
+        if (Input.GetMouseButtonDown(0)) // Detects first press
+    {
+        Debug.Log("Mouse Pressed - Playing Metal Tune");
+        isSabotaging = true;
+        playerAnimator.SetBool("isSabotaging", true);
 
-            // isExploding = true;
-            explosionAnimator.gameObject.SetActive(true);
-            explosionAnimator.SetBool("isExploding", true);
+        explosionAnimator.gameObject.SetActive(true);
+        explosionAnimator.SetBool("isExploding", true);
 
-            
-            audioController.PlayPlayerSFX();
-            
-        }
-        else
-        {
-            isSabotaging = false;
-            playerAnimator.SetBool("isSabotaging", false);
+        audioController.PlayPlayerSFX();
+        audioController.StopTheme(); // Pause theme instead of stopping it
+        audioController.MetalTune();  // Play Metal Tune
+    }
 
-            // isExploding = false;
-            explosionAnimator.gameObject.SetActive(false);
-            explosionAnimator.SetBool("isExploding", false);
-        }
+    if (Input.GetMouseButtonUp(0)) // Detects release
+    {
+        Debug.Log("Mouse Released - Resuming Theme");
+        isSabotaging = false;
+        playerAnimator.SetBool("isSabotaging", false);
+
+        explosionAnimator.gameObject.SetActive(false);
+        explosionAnimator.SetBool("isExploding", false);
+
+        audioController.StopMetalTune();
+        audioController.StartTheme(); // Resume theme instead of restarting
+    }
 
         if (Time.time >= nextTriggerTime)
         {
@@ -83,18 +84,18 @@ public class CharaController : MonoBehaviour
         }
 
 
-    if (Input.GetMouseButtonDown(0)) // Detects first press only
-    {
-        audioController.MetalTune();
-       // audioController.StopTheme();
+//     if (Input.GetMouseButtonDown(0)) // Detects first press only
+//     {
+//         audioController.MetalTune();
+//        // audioController.StopTheme();
         
-    }
+//     }
 
-    if (Input.GetMouseButtonUp(0)) // Detects release
-    {
-        audioController.StopMetalTune();
+//     if (Input.GetMouseButtonUp(0)) // Detects release
+//     {
+//         audioController.StopMetalTune();
         
-    }
+//    }
 
     }
 
@@ -110,7 +111,7 @@ public class CharaController : MonoBehaviour
     {
         isSculpting = false;
         rivalAnimator.SetBool("isSculpting", false);
-        audioController.StopSFX();
+        audioController.StopRivalSFX();
         SetNextTriggerTime();
     }
 
@@ -152,3 +153,6 @@ public class CharaController : MonoBehaviour
     }
     }
 
+
+
+// there is sth wrong with player sfx 

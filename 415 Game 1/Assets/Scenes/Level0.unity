@@ -728,7 +728,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -101.34, y: -42.4}
-  m_SizeDelta: {x: 113, y: 118}
+  m_SizeDelta: {x: 122.5, y: 116.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &585109713
 MonoBehaviour:
@@ -818,7 +818,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6f13e8a9ccb60ef49aaa7d5c09591723, type: 3}
+  m_Sprite: {fileID: 21300000, guid: be6f132c299eb544d95df9d117393a39, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1111,7 +1111,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -1, y: -42.4}
-  m_SizeDelta: {x: 113, y: 118}
+  m_SizeDelta: {x: 122.5, y: 116.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &716352869
 MonoBehaviour:
@@ -1201,7 +1201,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4f7be84b699164f4985b38fec1e654eb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dbc751dc626cc7146a12c1df93898224, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1302,7 +1302,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 101.17, y: -42.4}
-  m_SizeDelta: {x: 113, y: 118}
+  m_SizeDelta: {x: 122.5, y: 116.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &918291194
 MonoBehaviour:
@@ -1392,7 +1392,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8262dfcc4a31c9d42958d7dec19307f3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ccbbe445c696d754b86e04db355f6cf0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2391,10 +2391,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: fb70c337ebfb5ed4faa4661cfb702847, type: 3}
   - {fileID: 8300000, guid: 6fd90399dc506bf4f8c78fe973b559e8, type: 3}
   audioClipRival: {fileID: 8300000, guid: 93390a45ce7b55941b18d1743b4dedb4, type: 3}
+  button: {fileID: 8300000, guid: 92be6f11df0586c4e9e127af92659d72, type: 3}
   musicSource: {fileID: 199352154}
   theme: {fileID: 8300000, guid: 38bd04083510a6b458e38cbb4cd5d116, type: 3}
   metal: {fileID: 8300000, guid: 91c3823693ed7634b9aec1af98e73eef, type: 3}
-  button: {fileID: 8300000, guid: 92be6f11df0586c4e9e127af92659d72, type: 3}
 --- !u!1 &1911111497
 GameObject:
   m_ObjectHideFlags: 0

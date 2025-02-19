@@ -23,11 +23,17 @@ public class AudioController : MonoBehaviour
  
 
 
-    public void ThemeStart(){
+    public void StartTheme(){
 
-      //  musicSource.clip = theme;
+        if (!musicSource.isPlaying){
+
+     musicSource.clip = theme;
        // musicSource.volume = 0.1f;
-        musicSource.PlayOneShot(theme);
+        musicSource.Play();
+
+        }
+
+  
     }
 
     public void StopTheme(){
@@ -62,6 +68,12 @@ public class AudioController : MonoBehaviour
         }
     }
 
+    // public void StopPlayerSFX(){
+    //     SFXSource.clip = audioClipsPlayer[Random.Range(0, audioClipsPlayer.Length)];
+    //     SFXSource.Pause();
+    // }
+
+
     public void PlayRivalSFX(){
 
       if (!SFXSource.isPlaying){
@@ -71,10 +83,13 @@ public class AudioController : MonoBehaviour
         
     }
 
-
-    public void StopSFX(){
-        SFXSource.Pause();
+    public void StopRivalSFX(){
+            SFXSource.clip = audioClipRival;
+            SFXSource.Stop();
+        
     }
+
+
 
    public void ButtonSFX(){
         SFXSource.clip = button;
@@ -84,16 +99,26 @@ public class AudioController : MonoBehaviour
 
    public void MetalTune(){
        
-       // musicSource.clip = metal;
-        musicSource.PlayOneShot(metal);   
+        
+        musicSource.clip = metal;
+        musicSource.Play();  
+        // musicSource.PlayOneShot(metal); 
+        
    }
 
    public void StopMetalTune(){
+
+    
     musicSource.clip = metal;
      musicSource.Pause();
+     
 
    }
 
 
 
 }
+
+
+// with playoneshot it continues but then i have to remove start and stop theme from 
+// chara controller script.

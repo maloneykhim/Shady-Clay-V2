@@ -77,7 +77,7 @@ public class Settings : MonoBehaviour
 
     public void RetryGame(){
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("Level0");
 
         Time.timeScale=1;
 

@@ -14,6 +14,7 @@ public class GameController : MonoBehaviour
     float maxProgress = 20;
     [SerializeField] Image progressBar;
     float decrement = 0.0005f;
+    //0.002f
     float increment = 0.002f;
 
     public bool timeIsRunning = true;

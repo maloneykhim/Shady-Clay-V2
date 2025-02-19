@@ -3200,7 +3200,7 @@ MonoBehaviour:
   button: {fileID: 8300000, guid: 92be6f11df0586c4e9e127af92659d72, type: 3}
   musicSource: {fileID: 412465509}
   theme: {fileID: 8300000, guid: 38bd04083510a6b458e38cbb4cd5d116, type: 3}
-  metal: {fileID: 0}
+  metal: {fileID: 8300000, guid: 91c3823693ed7634b9aec1af98e73eef, type: 3}
 --- !u!4 &1784866531
 Transform:
   m_ObjectHideFlags: 0
