@@ -2957,8 +2957,7 @@ MonoBehaviour:
   - {fileID: 27153803}
   - {fileID: 1403101378}
   - {fileID: 1698745013}
-  - {fileID: 0}
-  maxPage: 4
+  maxPage: 3
 --- !u!1 &1698745013
 GameObject:
   m_ObjectHideFlags: 0
