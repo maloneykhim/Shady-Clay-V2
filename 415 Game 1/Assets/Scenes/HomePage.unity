@@ -1780,6 +1780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 799544657}
   - component: {fileID: 799544656}
+  - component: {fileID: 799544658}
   m_Layer: 0
   m_Name: shadyclay-logo
   m_TagString: Untagged
@@ -1854,6 +1855,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &799544658
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799544655}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bca2f6534705842ab9ead07c544276da, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &819449185
 GameObject:
   m_ObjectHideFlags: 0
@@ -3175,9 +3197,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: fb70c337ebfb5ed4faa4661cfb702847, type: 3}
   - {fileID: 8300000, guid: 6fd90399dc506bf4f8c78fe973b559e8, type: 3}
   audioClipRival: {fileID: 8300000, guid: 93390a45ce7b55941b18d1743b4dedb4, type: 3}
+  button: {fileID: 8300000, guid: 92be6f11df0586c4e9e127af92659d72, type: 3}
   musicSource: {fileID: 412465509}
   theme: {fileID: 8300000, guid: 38bd04083510a6b458e38cbb4cd5d116, type: 3}
-  button: {fileID: 8300000, guid: 92be6f11df0586c4e9e127af92659d72, type: 3}
+  metal: {fileID: 0}
 --- !u!4 &1784866531
 Transform:
   m_ObjectHideFlags: 0
