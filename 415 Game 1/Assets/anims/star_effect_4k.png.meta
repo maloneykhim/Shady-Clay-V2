@@ -1,0 +1,1381 @@
+fileFormatVersion: 2
+guid: 8a7223f320037d648b367bc3cc78d192
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: star_effect_4k_0
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1584.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5c3d66e2ae87a499c08660ff02b673
+      internalID: -41919968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_1
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1584.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a061df198a8712647abd83388e56fd37
+      internalID: 726787753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_2
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 1584.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4dd42a7ff3cc944a0750fbd7057f07
+      internalID: -1919818579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_3
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1584.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ca4c4ca0fc26a4bae0d153901b9070
+      internalID: -628360900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_4
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 1584.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a4c31682f418740a010fe5e7c433f7
+      internalID: -1756274277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_5
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 1584.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01501524f75e9045aad75177e2f1a1f
+      internalID: 1243185912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_6
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 1584.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867dc1a71dc837047a2d6055965addd8
+      internalID: -1601817581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_7
+      rect:
+        serializedVersion: 2
+        x: 3272
+        y: 1584.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb9d611b5d7d5f41918ad42a6945cd5
+      internalID: -1760219624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_8
+      rect:
+        serializedVersion: 2
+        x: 3681
+        y: 1584.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5345fd4092a2fe4bbfc4c00247d1327
+      internalID: -94864018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1268.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dadbec64b60cb44ca4ec4619c0907d7
+      internalID: 259708069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_10
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1268.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b2ab3144ed618419c210da414e1793
+      internalID: -65902830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_11
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1268.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2ed509b859f9445ad64733657ed8f7
+      internalID: 185748926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_12
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 1268.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24e4e8532113e148b96b1abfc31293b
+      internalID: -46125446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_13
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1268.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8b628386e82664bb207eb45f6a11e5
+      internalID: 32475242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_14
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 1268.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ab110fb0d8de34a85982cfdfe48d98
+      internalID: 746980865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_15
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 1268.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d8119bae6c72747ad2594987d45f26
+      internalID: 505090453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_16
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 1268.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f4da49c2ae1f74aa8099d4af61e67d
+      internalID: -2131722749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_17
+      rect:
+        serializedVersion: 2
+        x: 3272
+        y: 1268.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bddc5f3be1edd4b8e0d8aabb715ca6
+      internalID: 1806757412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_18
+      rect:
+        serializedVersion: 2
+        x: 3681
+        y: 1268.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b54ca4239838ae4c9727de3cf476446
+      internalID: 1792236205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 952.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de494d9e0f5ddfd4b8ee381685d047d0
+      internalID: -566530290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_20
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 952.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0612eca23c6dd3c43973dbd0f74fffc0
+      internalID: -60763461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_21
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 952.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edef482c3e521fe49b792fee05acd921
+      internalID: 872838952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_22
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 952.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da956d426de2444f863039260b9b569
+      internalID: 315011380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_23
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 952.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e1f7c50d7892a4aa5b67d84b2efbeb
+      internalID: 1760957316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_24
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 952.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6318aa4274b51ab428caed01578cf989
+      internalID: -288849010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_25
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 952.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fc544727442064c9471758ddc73477
+      internalID: -1403046034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_26
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 952.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095e70d21ecd1194aa4808708b0837de
+      internalID: -1322369069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_27
+      rect:
+        serializedVersion: 2
+        x: 3272
+        y: 952.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cf29e837a0ce449ab3b059e0a3e5d3
+      internalID: 35002787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_28
+      rect:
+        serializedVersion: 2
+        x: 3681
+        y: 952.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7c4a3fc1a500b4d9a4e6195319cdc3
+      internalID: -1033279070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 636.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fe573ab79f7f9479d43f76e3aecace
+      internalID: 283535106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_30
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 636.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d92b28c02303145b70b9b0c3ea30a8
+      internalID: 1544730146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_31
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 636.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af7facc1bdf855468650b709de2be35
+      internalID: 1257657054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_32
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 636.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3a324b341981b44b3171b44c88862f
+      internalID: -2104471581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_33
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 636.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249e77b0702dc1a4d89e2c55c702548b
+      internalID: 1235882840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_34
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 636.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8730f3932ebd24a99003f55050e6a5
+      internalID: -86674818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_35
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 636.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d583bcf8ae654428dacb9d8c3286a6
+      internalID: -714084837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_36
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 636.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49da40e88b6a77e44bccc32819581fb3
+      internalID: -1712384055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_37
+      rect:
+        serializedVersion: 2
+        x: 3272
+        y: 636.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd3114374a14e542878493fb0e11068
+      internalID: 899647055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_38
+      rect:
+        serializedVersion: 2
+        x: 3681
+        y: 636.1666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d505dcdfd6f724c4f92bba09b13d8611
+      internalID: -1314562684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320.16666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e113767dc9dd44c9da9871af5f7466
+      internalID: -1327329796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_40
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 320.16666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5cc914eeaa55444947eafb168ce125
+      internalID: -1724049078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_41
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 320.16666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbbc24754557e541ad957614c9eb519
+      internalID: 1328868435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_42
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 320.16666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80360dff6c4f744aa392c7e11686426
+      internalID: 60215311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_43
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 320.16666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2bfee48f8d17a4abab1d36225b1ca0
+      internalID: -801267441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_44
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 320.16666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc03c217b912ec042bf22df35ae94632
+      internalID: -169320515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_45
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 320.16666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db65af961a3d7534ea635dcb165f27fe
+      internalID: -521230049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_46
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 320.16666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec5f89944b161743b0ea8e384667b96
+      internalID: -1305751537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_47
+      rect:
+        serializedVersion: 2
+        x: 3272
+        y: 320.16666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2429077f91889954882b301c861d66d8
+      internalID: -548707253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_48
+      rect:
+        serializedVersion: 2
+        x: 3681
+        y: 320.16666
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ac6c3ce2582844a8bda26cd014948c
+      internalID: 1239739084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4.1666565
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a8120ac2b45cf4c823a3394d6d3869
+      internalID: -651526377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_50
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 4.1666565
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3f8066cec5a6947adaaa1acc81b6e1
+      internalID: 2079974195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_51
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 4.1666565
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76837bc4be21636488b6d19abb5f8008
+      internalID: 541793283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_52
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 4.1666565
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d6d409d12b60849895822055066da6
+      internalID: -2016597953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_53
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 4.1666565
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53737bb3cbe8f748ae89640deb3a5ad
+      internalID: 618690872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_54
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 4.1666565
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6b08422ac1d964f813f9b2812cd3aa
+      internalID: 1659882231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_55
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 4.1666565
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e779e3714e4afb14cae9555daee7164d
+      internalID: -1071211948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_effect_4k_56
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 4.1666565
+        width: 409.6
+        height: 316.83334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64546aa2e8b2cbc489a8814fab8104a7
+      internalID: -1093138686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      star_effect_4k_0: -41919968
+      star_effect_4k_1: 726787753
+      star_effect_4k_10: -65902830
+      star_effect_4k_11: 185748926
+      star_effect_4k_12: -46125446
+      star_effect_4k_13: 32475242
+      star_effect_4k_14: 746980865
+      star_effect_4k_15: 505090453
+      star_effect_4k_16: -2131722749
+      star_effect_4k_17: 1806757412
+      star_effect_4k_18: 1792236205
+      star_effect_4k_19: -566530290
+      star_effect_4k_2: -1919818579
+      star_effect_4k_20: -60763461
+      star_effect_4k_21: 872838952
+      star_effect_4k_22: 315011380
+      star_effect_4k_23: 1760957316
+      star_effect_4k_24: -288849010
+      star_effect_4k_25: -1403046034
+      star_effect_4k_26: -1322369069
+      star_effect_4k_27: 35002787
+      star_effect_4k_28: -1033279070
+      star_effect_4k_29: 283535106
+      star_effect_4k_3: -628360900
+      star_effect_4k_30: 1544730146
+      star_effect_4k_31: 1257657054
+      star_effect_4k_32: -2104471581
+      star_effect_4k_33: 1235882840
+      star_effect_4k_34: -86674818
+      star_effect_4k_35: -714084837
+      star_effect_4k_36: -1712384055
+      star_effect_4k_37: 899647055
+      star_effect_4k_38: -1314562684
+      star_effect_4k_39: -1327329796
+      star_effect_4k_4: -1756274277
+      star_effect_4k_40: -1724049078
+      star_effect_4k_41: 1328868435
+      star_effect_4k_42: 60215311
+      star_effect_4k_43: -801267441
+      star_effect_4k_44: -169320515
+      star_effect_4k_45: -521230049
+      star_effect_4k_46: -1305751537
+      star_effect_4k_47: -548707253
+      star_effect_4k_48: 1239739084
+      star_effect_4k_49: -651526377
+      star_effect_4k_5: 1243185912
+      star_effect_4k_50: 2079974195
+      star_effect_4k_51: 541793283
+      star_effect_4k_52: -2016597953
+      star_effect_4k_53: 618690872
+      star_effect_4k_54: 1659882231
+      star_effect_4k_55: -1071211948
+      star_effect_4k_56: -1093138686
+      star_effect_4k_6: -1601817581
+      star_effect_4k_7: -1760219624
+      star_effect_4k_8: -94864018
+      star_effect_4k_9: 259708069
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

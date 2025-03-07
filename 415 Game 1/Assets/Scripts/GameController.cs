@@ -21,6 +21,7 @@ public class GameController : MonoBehaviour
     [SerializeField] float timeRemaining = 60f; // Set a default value
     [SerializeField] TMP_Text timeText;
 
+
     void Start()
     {
         if (timeRemaining <= 0) 
@@ -82,7 +83,11 @@ public class GameController : MonoBehaviour
         if (currentProgress >= maxProgress)
         {
             Debug.Log("You win! Loading Win01 scene...");
+          
+  
             SceneManager.LoadScene("Win01");
+
+             
         }
     }
 }

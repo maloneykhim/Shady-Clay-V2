@@ -2,7 +2,6 @@ using System.Collections;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
-
 using UnityEngine.SceneManagement; //molly 
 
 public class CharaController : MonoBehaviour
@@ -12,11 +11,11 @@ public class CharaController : MonoBehaviour
     public Animator rivalAnimator;
 
     public Animator explosionAnimator;
+
+    public Animator starAnimator;
     
     AudioController audioController;
 
-   // private float minWaitTime = 2f;  // Minimum wait time before triggering sculpting animation
-   // private float maxWaitTime = 10f; // Maximum wait time before triggering sculpting animation
     private float minDuration = 1f;  // Minimum sculpting animation duration
     private float maxDuration = 5f;  // Maximum sculpting animation duration
 
@@ -37,6 +36,7 @@ public class CharaController : MonoBehaviour
         SetNextTriggerTime();
         StartCoroutine(CheckCaughtCondition());
         explosionAnimator.gameObject.SetActive(false);
+        starAnimator.gameObject.SetActive(false);
     }
 
     void Update()
@@ -49,18 +49,23 @@ public class CharaController : MonoBehaviour
             return;
         }
 
+
+    if(Input.GetMouseButton(0)){
+         audioController.PlayPlayerSFX();
+    }
+
         if (Input.GetMouseButtonDown(0)) // Detects first press
     {
-        Debug.Log("Mouse Pressed - Playing Metal Tune");
+       
         isSabotaging = true;
         playerAnimator.SetBool("isSabotaging", true);
 
         explosionAnimator.gameObject.SetActive(true);
         explosionAnimator.SetBool("isExploding", true);
 
-        audioController.PlayPlayerSFX();
-        audioController.StopTheme(); // Pause theme instead of stopping it
-        audioController.MetalTune();  // Play Metal Tune
+       
+        audioController.PauseTheme(); 
+        audioController.MetalTune();  
     }
 
     if (Input.GetMouseButtonUp(0)) // Detects release
@@ -72,8 +77,8 @@ public class CharaController : MonoBehaviour
         explosionAnimator.gameObject.SetActive(false);
         explosionAnimator.SetBool("isExploding", false);
 
-        audioController.StopMetalTune();
-        audioController.StartTheme(); // Resume theme instead of restarting
+        audioController.PauseMetalTune();
+        audioController.StartTheme(); 
     }
 
         if (Time.time >= nextTriggerTime)
@@ -84,25 +89,13 @@ public class CharaController : MonoBehaviour
         }
 
 
-//     if (Input.GetMouseButtonDown(0)) // Detects first press only
-//     {
-//         audioController.MetalTune();
-//        // audioController.StopTheme();
-        
-//     }
-
-//     if (Input.GetMouseButtonUp(0)) // Detects release
-//     {
-//         audioController.StopMetalTune();
-        
-//    }
-
     }
 
     void TriggerAnimation()
     {
         isSculpting = true;
         rivalAnimator.SetBool("isSculpting", true);
+        starAnimator.gameObject.SetActive(true);
         audioController.PlayRivalSFX();
         Invoke(nameof(StopAnimation), Random.Range(minDuration, maxDuration));
     }
@@ -111,6 +104,7 @@ public class CharaController : MonoBehaviour
     {
         isSculpting = false;
         rivalAnimator.SetBool("isSculpting", false);
+        starAnimator.gameObject.SetActive(false);
         audioController.StopRivalSFX();
         SetNextTriggerTime();
     }
@@ -129,9 +123,13 @@ public class CharaController : MonoBehaviour
         {
             if (isSabotaging && isSculpting && !isCaught)
             {
+                //audioController.CaughtSFX();
+                audioController.StopAudio(); 
+            
                 Debug.Log("Caught!");
                 isCaught = true;
                 playerAnimator.SetBool("isCaught", true);
+                
 
                 // Rival plays catching animation
                 rivalAnimator.SetBool("isCatchingPlayer", true);
@@ -139,10 +137,12 @@ public class CharaController : MonoBehaviour
                 // Stop catching animation
                 //rivalAnimator.SetBool("isCatchingPlayer", false);
 
-                yield return new WaitForSeconds(5f); // Delay before resetting
+                yield return new WaitForSeconds(3f); // Delay before resetting
+
+                 
 
                 SceneManager.LoadScene("Lose_caught"); // molly
-
+              
                 isCaught = false;
                 playerAnimator.SetBool("isCaught", false);
 
@@ -153,6 +153,3 @@ public class CharaController : MonoBehaviour
     }
     }
 
-
-
-// there is sth wrong with player sfx 
